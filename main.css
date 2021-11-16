@@ -1,0 +1,81 @@
+body {
+    background-color: lightblue;
+}
+ 
+nav#accCart{
+    float: right;
+    margin: 0em;
+    padding: 1px;
+    height: .5em;
+    word-spacing: 20px;
+}
+ 
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: underline;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+ 
+h2 {
+    color: green;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+ 
+nav li {
+    display: inline-block;
+    margin: 10;
+}
+ 
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+ 
+nav#names {
+    float: center;
+    word-spacing: 170px;
+}
+ 
+section#mainCard {
+    background-color: blue;
+    display: inline-block;
+    border-radius: 2em;
+    align-content: center;
+    width: 950px;
+    margin-left: 200;
+}
+ 
+section div.display {
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    font-family: 'Bebas Neue', cursive;
+}
+ 
+section div.display img.card {
+    width: 100%;
+}
+ 
+section#eventLog {
+    width: 350px;
+    float: right;
+    position: relative;
+    display: block;
+    border: dashed black;
+    margin: 5px 5px 5px 5px ;
+}
